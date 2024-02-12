@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="IE=edge">
+   <script src="https://code.responsivevoice.org/responsivevoice.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Nome do Herói</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script src="app.js"></script>
+    <header>🛡️🗡️ Classificador de Nível de Herói🗡️🛡️</header>
+   
+      <div id="heroCard">
+
+        <div>
+            <p id="heroName">Insira o nome do Herói</p>
+           <h3> <input id="idName" value="Augusto  Lima" type="text"></h3>
+
+
+            <p id="otherText">Insira a quantidade <br> de Experiência</p>
+            <input id="quantXp" value="10001" type="text">
+
+            <p id="otherText">Nível:</p>
+            
+            <p id="result">Clique no botão abaixo e descubra qual <br>o nível do seu Herói!</p>
+
+            <button onclick="printMessage()" id="calculateButton">Clique Aqui!</button>
+            <div id="espaco"></div>
+        </div>
+        <img src="./hero.jpg" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
+        <div>
+        
+
+            <div class="cardSobre">
+                <div class="redesSociais">
+                    <a href="https://www.linkedin.com/in/aaugusto-lima/" target="_blank">
+                        <img id="svgIcons" src="./linkedin.svg" alt="">                    
+                    </a>
+                    
+            
+                    <a href="https://github.com/GutoLima-code" target="_blank">
+                        <img id="svgIcons" src="./github.svg" alt="">                    
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,212 @@
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 6px;
+  scale: 96%;
+}
+
+
+header {
+  background-color: rgba(28, 52, 85, 0.931);
+  letter-spacing: 3px;
+  border-radius: 10px;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  height: 70px;
+  color: rgb(232, 226, 226);
+  padding-bottom: 8px;
+  width: 1200px;
+  margin-bottom: -20px;
+
+}
+body {
+ color: rgba(28, 52, 85, 0.931);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+input {
+  height: 60px;
+  width: 440px;
+  font-size: 34px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  border-radius: 6px;
+  border: solid 1px rgba(28, 52, 85, 0.931);
+}
+
+button {
+  border-radius: 5px;
+  border: 1px solid rgba(28, 52, 85, 0.931);
+  padding: 10px 20px;ss
+  background: rgba(28, 52, 85, 0.931) ;
+  font-size: 2em;
+  cursor: pointer;a
+}
+
+button:hover {
+  background-color: rgba(16, 201, 170, 0);
+  color: rgb(13, 59, 135);
+}
+
+#heroCard {
+  border-radius: 10px;
+  /* width: 1180px; */
+  height: 500px;
+  display: flex;
+  padding-top: 40px;
+}
+
+#heroName {
+  font-size: 80px;
+  font-weight: bolder;
+  letter-spacing: -6px;
+  margin: 10px 0px 10px 0px;
+}
+
+#otherText {
+  font-size: 50px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+  margin: 20px 0px 20px 0px;
+}
+
+#result {
+  font-size: 30px;
+  font-weight: bolder;
+  letter-spacing: -2px;
+}
+
+#classAccent {
+  color: rgb(0, 8, 255);
+}
+
+#xpAccent {
+  color: rgb(91, 138, 185);
+}
+
+.cardSobre {
+  /* background-color: lightgray; */
+  height: 340px;
+  border-radius: 10px;
+}
+
+#svgIcons {
+  height: 100px;
+}
+
+
+
+
+#svgIcons:hover {
+  scale: 110%
+}
+
+.redesSociais {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 220px;
+
+}
+
+.blankSpace {
+  margin-bottom: -68px;
+}
+
+@media (max-width: 950px) {
+  #heroCard {
+      border-radius: 10px;
+      display: flex;
+      padding-top: 40px;
+      align-content: center;
+      justify-items: center;
+      justify-content: center;
+  }
+
+  *{
+      scale: 100%;
+  }
+
+  button {
+      width: 90vw;
+      font-size: 20px;
+      font-weight: bolder;
+  }
+
+  #heroName {
+      font-size: 48px;
+      text-align: center;
+      font-weight: bolder;
+      letter-spacing: -3px;
+      margin: 10px 0px 10px 0px;
+  }
+
+  input {
+      height: 50px;
+      width: 90vw;
+      font-size: 22px;
+      font-weight: bolder;
+      letter-spacing: -1px;
+      border-radius: 2px;
+      border: solid 1px rgb(158, 33, 33);
+  }
+
+  #otherText {
+      font-size: 22px;
+      font-weight: bolder;
+      letter-spacing: -1px;
+      margin: 20px 0px 20px 8px;
+  }
+
+  header {
+      font-size: 22px;
+      letter-spacing: -1.4px;
+      /* margin-bottom: 124px; */
+      width: 92vw;
+      margin-bottom: -34px;
+  }
+
+  #heroCard {
+      flex-direction: column;
+  }
+
+  .fotoHeroi {
+      height: 0px;
+      width: 0px;
+      scale: 50%;
+
+      display: none;
+  }
+
+  #svgIcons {
+      height: 50px;
+  }
+
+  .youTube {
+      height: 50px;
+  }
+
+  #result {
+      font-size: 24px;
+  }
+
+  .scriptText {
+      font-size: 24px;
+  }
+
+  .redesSociais {     
+      padding-top: 0px;
+      margin-top: -30px;
+  }
+
+  .cardSobre {
+  height: 0px;
+  }
+
+}
